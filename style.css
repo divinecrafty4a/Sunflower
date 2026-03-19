@@ -81,11 +81,11 @@ body {
 }
 
 a {
-    color: var(--blue);
+    color: var(--charcoal);
 }
 
 a:visited {
-    color: var(--blue);
+    color: var(--charcoal);
 }
 
 .button-st1 {
