@@ -41,7 +41,7 @@ body {
 
 .nav-brand {
     font-weight: 600;
-    color: #111;
+    color: var(--brand);
     letter-spacing: 0.2px;
 }
 
@@ -54,7 +54,7 @@ body {
 .nav-link {
     padding: 6px 10px;
     border-radius: 6px;
-    color: #111;
+    color: var(--brand);
     text-decoration: none;
 }
 
@@ -96,14 +96,14 @@ a:hover {
     padding: 5px 12px;
     border: 1px solid var(--border);
     border-radius: 6px;
-    background-color: #ffffff;
+    background-color: var(--bg);
     text-decoration: none;
     font-size: 14px;
     font-family: system-ui, -apple-system, sans-serif;
 }
 
 .button-st1:hover {
-    background-color: #eef3ff;
+    background-color: var(--bg);
     border: 1px solid var(--brand);
     color: var(--brand);
 }
