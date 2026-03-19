@@ -95,6 +95,11 @@ body {
     color: var(--brand);
 }
 
+.button-st1-icon {
+    width: 16px;
+    height: 16px;
+}
+
 .ahref-2 {
     display:block;
 }
