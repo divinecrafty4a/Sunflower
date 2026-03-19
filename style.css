@@ -80,12 +80,10 @@ a {
 }
 
 a:visited {
-    color: var(--brand);
 }
 
 a:hover {
     cursor: pointer;
-    color: var(--brand);
 }
 
 .button-st1 {
@@ -109,11 +107,3 @@ a:hover {
     color: var(--brand);
 }
 
-header h1 {
-    margin: 0 0 6px;
-}
-
-header p {
-    margin: 0 0 2px;
-    color: #666;
-}
