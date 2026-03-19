@@ -75,9 +75,12 @@ body {
     gap: 16px;
 }
 
-a,
+a {
+    color: var(--brand);
+}
+
 a:visited {
-    color: var(--brand)
+    color: var(--brand);
 }
 
 .button-st1 {
