@@ -1,1 +1,117 @@
+:root {
+  --nav-h: 56px;
+  --brand: #0044ff;
+  --border: #dedede;
+  --bg: #f6f8fa;
+}
 
+/* base */
+html,
+body {
+  height: 100%;
+}
+body {
+  font-size: 14px;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  background-color: var(--bg);
+  margin: 0; /* reset margin เพื่อใช้ padding-top แทน */
+  text-align: center;
+}
+
+/* fixed navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--nav-h);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 0 16px;
+  background: #fff;
+  border-bottom: 1px solid var(--border);
+  z-index: 1000;
+}
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.nav-brand {
+  font-weight: 600;
+  color: #111;
+  letter-spacing: 0.2px;
+}
+.nav-links {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.nav-link {
+  padding: 6px 10px;
+  border-radius: 6px;
+  color: #111;
+  text-decoration: none;
+}
+.nav-link:hover {
+  background: #f0f3f7;
+}
+
+.page {
+  padding: 40px 24px; /* ระยะรอบๆ */
+  padding-top: calc(40px + var(--nav-h));
+}
+
+.container,
+.container-2,
+.container-3 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: var(--brand);
+}
+a:hover {
+  cursor: pointer;
+  color: var(--brand);
+}
+
+.button-st1 {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin: 2px;
+  padding: 5px 12px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background-color: #ffffff;
+  color: #000000;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+.button-st1:hover {
+  background-color: #eef3ff;
+  border: 1px solid var(--brand);
+  color: var(--brand);
+}
+.button-st1-icon {
+  height: 14px;
+  width: 14px;
+}
+
+
+header h1 {
+  margin: 0 0 6px;
+}
+header p {
+  margin: 0 0 2px;
+  color: #666;
+}
