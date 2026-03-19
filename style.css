@@ -75,19 +75,6 @@ body {
     gap: 16px;
 }
 
-a {
-    text-decoration: none;
-    color: var(--brand);
-}
-
-a:visited {
-    color: var(--brand);
-}
-
-a:hover {
-    cursor: pointer;
-}
-
 .button-st1 {
     display: inline-flex;
     align-items: center;
