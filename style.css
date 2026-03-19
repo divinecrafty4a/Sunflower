@@ -77,9 +77,11 @@ body {
 
 a {
     text-decoration: none;
+    color: var(--brand);
 }
 
 a:visited {
+    color: var(--brand);
 }
 
 a:hover {
