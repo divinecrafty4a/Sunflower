@@ -75,6 +75,11 @@ body {
     gap: 16px;
 }
 
+a,
+a:visited {
+    color: var(--brand)
+}
+
 .button-st1 {
     display: inline-flex;
     align-items: center;
