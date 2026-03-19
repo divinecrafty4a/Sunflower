@@ -34,7 +34,7 @@ body {
     gap: 12px;
     padding: 0 16px;
     background: var(--white);
-    border-bottom: 1px solid var(--littlewhite);
+    border-bottom: 1px solid var(--greywhite);
     z-index: 1000;
 }
 
@@ -94,7 +94,7 @@ a:visited {
     gap: 6px;
     margin: 2px;
     padding: 5px 12px;
-    border: 1px solid var(--littlewhite);
+    border: 1px solid var(--greywhite);
     border-radius: 6px;
     background-color: var(--white);
     text-decoration: none;
