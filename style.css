@@ -103,7 +103,6 @@ a:visited {
 }
 
 .button-st1:hover {
-    background-color: var(--greywhite);
     border: 1px solid var(--blue);
     color: var(--blue);
 }
