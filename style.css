@@ -16,7 +16,7 @@ body {
     height: 100%;
     font-size: 14px;
     font-family: "Segoe UI", Tahoma, sans-serif;
-    background-color: var(--greywhite);
+    background-color: var(--littlewhite);
     margin: 0;
     text-align: center;
 }
