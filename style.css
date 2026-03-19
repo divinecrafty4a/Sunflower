@@ -82,6 +82,7 @@ body {
 
 a {
     color: var(--charcoal);
+    text-decoration:none;
 }
 
 a:visited {
